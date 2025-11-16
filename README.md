@@ -62,11 +62,8 @@
 
 | Categoria | Tecnologia |
 | :--- | :--- |
-| **Frontend Framework** | (Ajuste: Ex: React, Vue, Angular) |
-| **Requisições HTTP** | Fetch API ou Axios |
-| **Gerenciamento de Estado**| (Ajuste: Ex: Context API, Redux) |
+| **Frontend Framework** | Next.js , TypeScript |
+| **Requisições HTTP** | Fetch API |
 | **Dados** | API TMDb (ou similar) |
 
----
 
-Tudo pronto! Qual será o próximo projeto?
