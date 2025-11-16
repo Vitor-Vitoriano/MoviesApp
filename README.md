@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Projeto MoviesApp 🎬
 
-First, run the development server:
+## Catálogo de Filmes e Séries Online
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Responsável pelo Projeto:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Vitor Vitoriano** ([GitHub](https://github.com/Vitor-Vitoriano))
+    *(www.linkedin.com/in/vitor-vitoriano-20921b327)*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Instruções do Projeto:
 
-## Learn More
+### 1. Ambiente de Desenvolvimento:
 
-To learn more about Next.js, take a look at the following resources:
+* Utilize **Node.js** e **npm** (ou Yarn) instalados na sua máquina.
+* Utilize **Visual Studio Code** ou um editor de código equivalente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Configuração do Projeto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Clonar o repositório:**
+    ```bash
+    git clone [https://github.com/Vitor-Vitoriano/MoviesApp](https://github.com/Vitor-Vitoriano/MoviesApp)
+    cd MoviesApp
+    ```
+* **Instalar as dependências:**
+    * Execute o gerenciador de pacotes para baixar as bibliotecas de interface (React, Vue, ou outras):
+        ```bash
+        npm install
+        # OU
+        # yarn install
+        ```
+* **Configuração da Chave de API:**
+    * O aplicativo depende de uma API externa (como TMDb).
+    * Crie um arquivo de ambiente (`.env` ou similar) na raiz do projeto e insira sua chave de API conforme a estrutura do código.
+    * Exemplo (ajuste conforme a necessidade do seu projeto):
+        ```
+        REACT_APP_API_KEY=SUA_CHAVE_API_AQUI
+        ```
+* **Execução da Aplicação:**
+    * Inicie o servidor de desenvolvimento:
+        ```bash
+        npm start
+        # OU
+        # yarn start
+        ```
+    * Acesse a aplicação em seu navegador (`http://localhost:3000` ou a porta configurada).
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Benefícios do Projeto:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Consumo de API REST:** Domínio na integração de serviços externos e manipulação de dados JSON.
+* **Interface Dinâmica:** Habilidade em criar componentes reativos e interfaces que atualizam o conteúdo em tempo real.
+* **Roteamento (Routing):** Demonstra a capacidade de gerenciar diferentes telas da aplicação (ex: lista principal, página de detalhes do filme).
+* **Pesquisa e Filtragem:** Implementação de funcionalidades de busca para melhorar a experiência do usuário.
+
+---
+
+## 🛠️ Tecnologias utilizadas:
+
+| Categoria | Tecnologia |
+| :--- | :--- |
+| **Frontend Framework** | (Ajuste: Ex: React, Vue, Angular) |
+| **Requisições HTTP** | Fetch API ou Axios |
+| **Gerenciamento de Estado**| (Ajuste: Ex: Context API, Redux) |
+| **Dados** | API TMDb (ou similar) |
+
+---
+
+Tudo pronto! Qual será o próximo projeto?
